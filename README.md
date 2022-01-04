@@ -1,1 +1,1 @@
-https://IvanMostyko.github.io/rsschool-cv/cv
+githttps://IvanMostyko.github.io/rsschool-cv/cv
