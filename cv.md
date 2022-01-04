@@ -1,7 +1,7 @@
 # Mostyko Ivan
 ![Аватарка](./img.jpg)
 _Student_
-******
+****
 
 ## Summary
 I am student of the Belarusian State University of Informatics and Radioelectronics. I am a second year student.
