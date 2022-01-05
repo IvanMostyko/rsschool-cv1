@@ -1,0 +1,93 @@
+
+body{
+    font-family: 'Luxurious Roman', kursiv ;
+  
+    background-color: rgb(227, 228, 227);
+    padding: 50px 0;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container{
+    max-width: 1440px;
+
+width: 80%;
+min-height: 300px;
+align-items: center;
+margin: 0 auto;
+background-color: whitesmoke;
+}
+.header{
+display: flex;
+background: -webkit-linear-gradient(225deg, rgb(140, 118, 212), rgb(63, 209, 214));
+background: -moz-linear-gradient(225deg, rgb(140, 118, 212), rgb(63, 209, 214));
+background: linear-gradient(225deg, rgb(140, 118, 212), rgb(63, 209, 214));
+height: 80px;
+
+}
+.title-block{
+display: flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+width: 80%;
+height: 100%;
+
+color: #fff;
+}
+.main-image{
+display: flex;
+width: 20%;
+height: 100%;
+}
+
+.p-in-header{
+padding: 5px 0;
+text-decoration: underline;
+font-size: 18px;
+}
+
+.myfoto{
+border-radius: 100px;
+border: 2px solid whitesmoke ;
+box-shadow: 0 0 7px #666;
+
+}
+
+.content-wrapper{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.content{
+padding: 20px 10px;
+}
+
+.name{font-size: 23px;} 
+.footer{
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: rgb(43, 138, 226);
+    color: aliceblue;
+}
+h1{margin: 0 0;
+padding-top: 10px;}
+
+p{margin: 5px;}
+h2{margin: 15px;}
+
+
+.links{
+padding: 20px 10px;
+
+
+}
+.logors{height: 20px;
+width: 40px;}
+
+a { text-decoration: none; font-weight: bold; color: rgb(255, 255, 255); }
+a:hover { text-decoration: underline; }
