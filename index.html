@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">    
+
 </head>
 <body>
+  <div class="container">
+    <div class="header">
+        <div class="title-block">
+            <h1>Mostyko Ivan</h1> 
+            <div class="p-in-header">Student</div>
+        </div>
+        <div class="main-image">
+            <img class="myfoto" src="./img.jpg" alt="avatar">
+        </div>
+    </div>
     
+    <div class="content-wrapper">
+        <div class="content">
+            <h2>Summary</h2>
+            <p>I am student of the Belarusian State University of Informatics and Radioelectronics. I am a second year student.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Skills:</h2>
+            <ul>
+                <li>Responsible</li>
+                <li>Like work in team</li>
+                <li>Have logical thinking</li>
+                <li>Communicable</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Experince</h2>
+            <p>
+                <b>Freelance</b>Develop a few simple sites
+            </p>
+        </div>
+        <div class="content">
+            <h2>Eucation</h2>
+            <p><b>School</b> | 2009-2020</p>
+            <p><b>BSUIR</b> | 2021</p>
+        </div>
+        <div class="content">
+            <h2>Certificates</h2>
+            <p><i><b>C++</b> programming courses</i>| 2018</p>
+
+        </div>
+        <div class="content">
+            <h2>Code</h2>
+            <p><b>Fibonacci number search algorithm:</b></p>
+            <p><code>
+                #include &lt;iostream &gt;<Br>
+ 
+                int fibonacci(int number)<Br>
+                {<Br>
+                    if (number == 0)<Br>
+                        return 0;  <Br>
+                    if (number == 1)<Br>
+                        return 1; <Br>
+                    return fibonacci(number-1) + fibonacci(number-2);<Br>
+                }<Br>
+                
+                int main()<Br>
+                {<Br>
+                    for (int count=0; count &lt; 13; ++count)<Br>
+                        std:: cout &lt;&lt; fibonacci(count) &lt;&lt; " ";<Br>
+                 
+                    return 0;<Br>
+                }
+            </code></p>
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+       <div class="txtinfoot"><h2>About</h2>
+        <p>I want to work with interesting tasks and with professional and friendly staff.</p>
+        </div>
+        <div class="links">
+            <a href="https://github.com/IvanMostyko">Link on my GITHUB</a>
+            <p>2021</p>
+            <a href="https://rs.school/js/">Link on rsschool</a>
+            <img class="logors" src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool">
+
+        </div>
+    </div>
+  </div>
 </body>
 </html>
